@@ -1,0 +1,112 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+  background-color: #FFD900;
+  padding: 0.75rem 2rem;
+  display: flex;
+  align-items: center;
+  height: 5vh;
+}
+
+header img{
+height: 4.7vh;
+}
+
+#informations{
+  display: flex;
+}
+#div-informations{
+  width: 50%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color:#514988 ;
+  color: #FFFFFF;
+}
+
+#div-informations h1{
+  color: #F3C61F;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+#div-informations h4{
+  margin-bottom: 1.25rem;
+}
+
+#div-video{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#div-video video{
+  width: 90%;
+}
+
+#regressiva{
+  font-size: 1.75rem;
+  display: flex;
+}
+
+.timer{
+  display: flex;
+  margin: 0.1rem 0.5rem;
+}
+
+#div-video h4{
+  color: #E33881;
+}
+
+#ingressos{
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#div-ingressos{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#card-ingressos{
+  display: flex;
+  justify-content: center;
+}
+
+#ingressos p{
+  color:#F3C61F;
+  margin: 0.25rem;
+  font-weight: 700;
+}
+
+#ingressos img{
+  width:15%;
+}
+
+#ingressos button{
+  background-color:#514988 ;
+  border-radius: 1.25rem;
+  color: #FFFFFF;
+  border: 0;
+  width: 30%;
+  font-size: 1.75em;
+  font-weight: 700;
+  height: 6rem;
+  align-self: center;
+}
+
+#ingressos button:hover{
+  background-color: #F3C61F;
+}
+
