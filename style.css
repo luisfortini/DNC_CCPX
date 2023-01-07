@@ -61,6 +61,7 @@ height: 4.7vh;
 .timer{
   display: flex;
   margin: 0.1rem 0.5rem;
+  color:#514988;
 }
 
 #div-video h4{
